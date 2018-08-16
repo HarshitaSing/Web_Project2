@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head background="https://www.planwallpaper.com/static/images/001_Fish-Wallpaper-HD.jpg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<style>
+	#button1 {
+	
+		background-color: #010053; 
+		border-radius: 12px;
+		text-align: center;
+		color: white;
+		font-size: 20px;
+		justify-content: center;
+		padding: 14px 40px;
+	}
+	
+	#button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+
+	mark {
+    background-color: yellow;
+    
+	}
+	
+	<!--.card-container {
+    display: grid;
+    padding: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+}-->
+.card {
+    box-shadow: 0px 1px 5px #555;
+    background-color: #A9A9A9	;
+}
+
+</style>
+
+
+<html>
+<head>
+<title>CAR WEB</title>
+<div class="container">
+<h1 style="text-align:left;"><strong>CAR CENTER :</strong></h1></div>
+
+</head>
+<body>
+<form>
+
+	<div class="container">
+    <div class="form-group">
+      <select class="form-control" id="make" style="background-color:#e29a8a;" >
+	  <option value="" disabled selected><strong>Make</strong></option>
+        <option>Honda</option>
+        <option>Maruti Suzuki</option>
+        <option>Mahindra</option>
+        <option>Toyota</option>
+		 <option>Hyundai</option>
+      </select>
+	  </div>
+	  <div class="form-group"> 
+	  <select class="form-control"  style="background-color:#e29a8a;">
+	  <option value="" disabled selected><strong>Model</strong></option>
+        <option>Accord</option>
+        <option>Amaze</option>
+        <option>CRV</option>
+        <option>Brio</option>
+        <option>Jazz</option>
+		<option>Mobilio</option>
+	  </select>
+	  </div>
+	  
+	  
+	  </div>
+	  </form>
+	  
+	  
+	  <div class="col-sm-12 text-center">
+<button id="button1" class="button button1" type="submit" data-toggle="modal" data-target="#exampleModalLong" >GET A QUOTE <span class="glyphicon glyphicon-play"></span>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle"><mark><strong>SERVICES OFFERED !</strong></mark></h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background-color:#e29a8a;">		
+		
+		<div class="row">
+
+		<div class="card-group">
+
+<!-- Card 1 -->
+<div class="col-md-4">
+<div class="card">
+<br>
+<div class="card-header"><strong><mark>Servicing</mark></strong></div>
+<div class="card-body">
+<br>
+<p class="card-text">Complete service including engine oil and filters change.</p>
+
+</div>
+</div>
+</div>
+
+
+<!-- Card 2 -->
+<div class="col-md-4">
+<div class="card">
+<br>
+<div class="card-header"><strong><mark>Repairing</mark></strong></div>
+<div class="card-body">
+<br>
+<p class="card-text">All kinds of car repairs - clutch overhaul, brakes overhaul etc. </p>
+</div>
+</div>
+
+</div>
+
+<!-- card 3-->
+
+<div class="col-md-4">
+<div class="card">
+<br>
+<div class="card-header"><strong><mark>Denting/Painting</mark></strong></div>
+<div class="card-body">
+<br>
+<p class="card-text">Fix all the scratches and dents for a brand new look for your car. </p>
+</div>
+</div>
+
+</div>
+
+</div>
+	</div> 
+	<hr>
+	<div class="row">
+
+		<div class="card-group">
+
+<!-- Card 4 -->
+<div class="col-md-4">
+<div class="card">
+<br>
+<div class="card-header"><strong><mark>Car Care</mark></strong></div>
+<div class="card-body">
+<br>
+<p class="card-text">Car Spa at your doorstep. Expert cleaners & quality products.</p>
+
+</div>
+</div>
+</div>
+
+
+<!-- Card 5 -->
+<div class="col-md-4">
+<div class="card">
+<br>
+<div class="card-header"><strong><mark>Subscription</mark></strong></div>
+<div class="card-body">
+<br>
+<p class="card-text">Subscribe to one of our annual plans for huge savings. </p>
+</div>
+</div>
+
+</div>
+
+<!-- card 6-->
+
+<div class="col-md-4">
+<div class="card">
+<br>
+<div class="card-header"><strong><mark>Emergency</mark></strong></div>
+<div class="card-body">
+<br>
+<p class="card-text">24*7 emergency services including battery jumpstart, flat tyre support etc.  </p>
+</div>
+</div>
+
+</div>
+
+</div>
+	</div> 
+	</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+	  
+	  
+  
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html>
